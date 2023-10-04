@@ -65,7 +65,7 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Maíra" sap:VirtualizedContainerService.HintSize="496,455" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Maíra" sap:VirtualizedContainerService.HintSize="496,585" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="var1" />
     </Sequence.Variables>
@@ -84,5 +84,6 @@
     </Assign>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[var1]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[var1]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="oioi" />
   </Sequence>
 </Activity>
