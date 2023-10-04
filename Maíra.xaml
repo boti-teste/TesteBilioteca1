@@ -54,7 +54,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Maíra" sap:VirtualizedContainerService.HintSize="496,193" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Maíra" sap:VirtualizedContainerService.HintSize="496,323" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="var1" />
     </Sequence.Variables>
@@ -71,5 +71,6 @@
         <InArgument x:TypeArguments="x:String">Oi</InArgument>
       </Assign.Value>
     </Assign>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[var1]" />
   </Sequence>
 </Activity>
