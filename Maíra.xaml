@@ -75,6 +75,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;aaa&quot; + &quot;bbb&quot;]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;novo commit!&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;novo commit - RoboA!&quot;]" />
   </Sequence>
 </Activity>
